@@ -8,6 +8,14 @@
 
 * Booleans is a datatype that returns either of two values either true or false.
 * Booleans is used as a function to get the value of a variable, object, conditions,expressions etc. in terms of true or false.
+
+* === ()
+* || ()
+* ! ()
+* !== ()
+* <== ()
+* >== ()
+
 * Example of **Booleans**
 ```
 function isInDanger(grade) {
