@@ -21,11 +21,16 @@ function isCoasting(grade) {
 function isSucceeding(grade) {
     return grade >=84 && grade<=92;
 }
+
+function differentPeople(name1, name2) {
+    return name1 !== name2;
+OR  return !(name1 === name2);
+}
 ```
 
 ## **Tuesday** 10/1/19
 
-
+* 
 
 
 
