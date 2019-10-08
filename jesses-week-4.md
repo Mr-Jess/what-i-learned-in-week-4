@@ -9,14 +9,14 @@
 * Booleans is a datatype that returns either of two values either true or false.
 * Booleans is used as a function to get the value of a variable, object, conditions,expressions etc. in terms of true or false.
 
-### Syntext
+### Syn-text
 
-* `=== ()`
-* `|| ()`
-* `! ()`
+* `=== (equal)`
+* `|| (or)`
+* `! (not)`
 * `!== ()`
-* `<== ()`
-* `>== ()`
+* `<== (less than and equal too)`
+* `>== (greater than and equal too)`
 
 ### Example of **Booleans**
 
@@ -98,6 +98,45 @@ function grader(score){
 }
 ```
 
+### **Fizz and Buzz**
+
+* Divisible by 3 = fizz
+* Divisible by 5 = Buzz
+* Divisible by 3 or 5 = fizzBuzz
+* Divisible by nothing = nothing gives same number back
+* `How to check if Divisible check with MOD (%)`
+* `example` 5 % 2 `remainder 1`
+
+## Wednesday 10/2/19
+
+### **Ternary** alternative for ifs and else
+
+* Binary Operates VS Unary Operators VS Ternary Operators
+* Binary takes two (2) or more things together
+* Unary takes in one (1) thing and show results
+* **Ternary** takes in three (3) values resulting in one example: (? 'hello' :)
+
+```
+example: const response = (greeting === 'hello') ? 'hello back' : 'salutations'
+    let response = ' ';
+
+example: let coinFlip = 'heads';
+    const result = coinFlip === 'heads' ? 'you win' : 'you lose'
+    result; you win
+
+example: const myRoll = 5;
+    const yourRoll = 3;
+    const dieRollResult = yourRoll > myRoll
+```
+
+#### Do and Don't w/ **Ternary**
+
+* Not made for returning code
+* Made for resolving to one value then breaking down the three values
+
+## Thursday 10/3/19
+
+* switch statements are extra credential information to research its an alternative too
 
 ### **Side Notes**
 
